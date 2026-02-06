@@ -6,25 +6,25 @@ class ContainerSourcePolicy < Formula
   desc "CLI tool for generating BuildKit source policy files"
   homepage "https://github.com/wharflab/container-source-policy"
   license "Apache-2.0"
-  version "0.5.2"
+  version "0.6.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/wharflab/container-source-policy/releases/download/v0.5.2/container-source-policy_0.5.2_MacOS_arm64.tar.gz"
-      sha256 "43bcb5402246f5f363fc0fa1b03155bbd3b2405f889f16f5214bbc47b08d86ed"
+      url "https://github.com/wharflab/container-source-policy/releases/download/v0.6.0/container-source-policy_0.6.0_MacOS_arm64.tar.gz"
+      sha256 "c29ed2e03a6535d2af4e110d9c910f25a36654672521ee2c55aaa430f819c7a2"
     else
-      url "https://github.com/wharflab/container-source-policy/releases/download/v0.5.2/container-source-policy_0.5.2_MacOS_x86_64.tar.gz"
-      sha256 "209e6116c2dd886e4f54771caf246c1207cf828b703eca542bef43a8d14cd5b0"
+      url "https://github.com/wharflab/container-source-policy/releases/download/v0.6.0/container-source-policy_0.6.0_MacOS_x86_64.tar.gz"
+      sha256 "1712f1270aa669ade349c664edadc20652735414aff717a812c02a502c2e726b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/wharflab/container-source-policy/releases/download/v0.5.2/container-source-policy_0.5.2_Linux_arm64.tar.gz"
-      sha256 "54282777e5b8768fb161a63ad4a894ec9d20efad1630c393d2c72ee55a13bec9"
+      url "https://github.com/wharflab/container-source-policy/releases/download/v0.6.0/container-source-policy_0.6.0_Linux_arm64.tar.gz"
+      sha256 "a801013434bdb58eb013ee95fc0015af318c774038663740c598e20be3e3ad57"
     else
-      url "https://github.com/wharflab/container-source-policy/releases/download/v0.5.2/container-source-policy_0.5.2_Linux_x86_64.tar.gz"
-      sha256 "b61a9320c1b3895b373b1338c165f778dfc1ed553f11b9f53bcb947bdfea46dc"
+      url "https://github.com/wharflab/container-source-policy/releases/download/v0.6.0/container-source-policy_0.6.0_Linux_x86_64.tar.gz"
+      sha256 "0339da35defed2e2f625c288a3a454a3407b7797998639edbe25223a23ce1db1"
     end
   end
 
