@@ -6,25 +6,25 @@ class Tally < Formula
   desc "Fast, configurable linter for Dockerfiles and Containerfiles"
   homepage "https://tally.wharflab.com/"
   license "AGPL-3.0-only"
-  version "0.41.0"
+  version "0.44.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/wharflab/tally/releases/download/v0.41.0/tally_0.41.0_MacOS_arm64.tar.gz"
-      sha256 "3eadd25f5822a200c76b2071dae4ea78ce7e2c9f20f230c478412f126fa938d0"
+      url "https://github.com/wharflab/tally/releases/download/v0.44.0/tally_0.44.0_MacOS_arm64.tar.gz"
+      sha256 "c3a549491a047cefea9befd4a621976e09f145cf0bcd5197b2a91ad6b23c9fb4"
     else
-      url "https://github.com/wharflab/tally/releases/download/v0.41.0/tally_0.41.0_MacOS_x86_64.tar.gz"
-      sha256 "ae9d618183ec4500c746ec1419bc4cbe6138d66c2d812de04713c2ba51131afc"
+      url "https://github.com/wharflab/tally/releases/download/v0.44.0/tally_0.44.0_MacOS_x86_64.tar.gz"
+      sha256 "4c910f7b957d1143a0a85ddf6fe4e3c8d4299d2fb274d2b12bbffa55bb597335"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/wharflab/tally/releases/download/v0.41.0/tally_0.41.0_Linux_arm64.tar.gz"
-      sha256 "790ad76b1426a8b229c774391d6fa9002e1e7dafd9bb28dbc173906eec8a67b5"
+      url "https://github.com/wharflab/tally/releases/download/v0.44.0/tally_0.44.0_Linux_arm64.tar.gz"
+      sha256 "f886e186221d2f3e29109f929c337276d220ab183ec6d3265afa7520d522c455"
     else
-      url "https://github.com/wharflab/tally/releases/download/v0.41.0/tally_0.41.0_Linux_x86_64.tar.gz"
-      sha256 "a08c6c459503b709a4e218f9f232bd13ad8741b9a928da7676908ae757cc33f3"
+      url "https://github.com/wharflab/tally/releases/download/v0.44.0/tally_0.44.0_Linux_x86_64.tar.gz"
+      sha256 "fba9f0702987652060b869b9109c4d381bf6caf9d4ec096a230c3e1cb2154415"
     end
   end
 
